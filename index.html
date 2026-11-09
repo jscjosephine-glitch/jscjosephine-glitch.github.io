@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- EDIT: judul & deskripsi yang muncul di Google dan tab browser -->
+<title>Jessica Carellia Josephine – Portofolio</title>
+<meta name="description" content="Portofolio Jessica Carellia Josephine: mahasiswa Sistem Informasi Universitas Kanjuruhan Malang, pembuat website, penyanyi, dan pembawa acara.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EEF1F6; --ink:#16213E; --muted:#5A6479; --line:#C9D0DD;
+  --mark:#FFD84D; --link:#2A4BD7; --surface:#E3E8F1;
+  --display:"Bricolage Grotesque","Arial Black",system-ui,sans-serif;
+  --body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#10162B; --ink:#E9EDF7; --muted:#9AA6C2; --line:#2A3558; --link:#8FA6FF; --surface:#182041}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:1.0625rem;line-height:1.65}
+a{color:var(--link);text-underline-offset:3px}
+a:focus-visible{outline:3px solid var(--mark);outline-offset:3px;border-radius:2px}
+.wrap{max-width:46rem;margin:0 auto;padding:0 1.5rem}
+
+header.top{padding:1.25rem 0}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem}
+.brand{font-family:var(--display);font-weight:800;text-decoration:none;color:var(--ink)}
+nav a{margin-left:1.1rem;color:var(--ink);text-decoration:none;font-weight:500}
+nav a:hover{text-decoration:underline;text-decoration-color:var(--mark);text-decoration-thickness:3px}
+
+.hero{padding:clamp(3rem,10vw,7rem) 0 clamp(2.5rem,7vw,5rem)}
+.hero h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,9vw,5rem);line-height:1.02;letter-spacing:-.03em;margin:0 0 1.5rem}
+.hero h1 span{background:linear-gradient(transparent 58%,var(--mark) 58%);padding:0 .1em}
+.hero p{font-size:1.25rem;max-width:36rem;color:var(--muted);margin:0 0 2rem}
+.btns{display:flex;flex-wrap:wrap;gap:.75rem}
+.btn{display:inline-block;padding:.7rem 1.2rem;border-radius:.4rem;font-weight:600;text-decoration:none;border:2px solid var(--ink);color:var(--ink)}
+.btn.fill{background:var(--ink);color:var(--bg)}
+.btn:hover{background:var(--mark);color:#16213E;border-color:var(--mark)}
+
+section{padding:3rem 0;border-top:1px solid var(--line)}
+h2{font-family:var(--display);font-weight:700;font-size:1.9rem;letter-spacing:-.02em;margin:0 0 1.5rem}
+
+.item{padding:.25rem 0 .25rem 1.25rem;border-left:4px solid var(--line);margin-bottom:1.5rem}
+.item:hover{border-left-color:var(--mark)}
+.item h3{font-family:var(--display);font-size:1.2rem;margin:0}
+.item p{margin:.2rem 0 0;color:var(--muted)}
+.item .who{font-weight:500;color:var(--ink)}
+.item .links a{font-weight:600}
+
+.skills{display:flex;flex-wrap:wrap;gap:.5rem;padding:0;margin:0;list-style:none}
+.skills li{background:var(--surface);padding:.35rem .8rem;border-radius:.3rem;font-weight:500}
+
+footer{padding:2.5rem 0 3.5rem;border-top:1px solid var(--line);color:var(--muted);font-size:.95rem}
+@media (prefers-reduced-motion:no-preference){
+  .hero h1 span{background-size:0 100%;background-repeat:no-repeat;background-image:linear-gradient(var(--mark),var(--mark));background-position:0 90%;animation:hl .9s .3s ease forwards}
+  @keyframes hl{to{background-size:100% 42%}}
+}
+@media (max-width:34rem){nav a{margin-left:.7rem;font-size:.95rem}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#">JCJ</a>
+    <nav>
+      <a href="#tentang">Tentang</a>
+      <a href="#proyek">Proyek</a>
+      <a href="#pengalaman">Pengalaman</a>
+      <a href="#prestasi">Prestasi</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="hero wrap">
+    <h1>Halo, saya <span>Jessica Carellia Josephine</span>.</h1>
+    <p>Mahasiswa Sistem Informasi Universitas Kanjuruhan Malang yang membuat website, bernyanyi, dan membawakan acara.</p>
+    <div class="btns">
+      <a class="btn fill" href="#proyek">Lihat proyek</a>
+      <a class="btn" href="#kontak">Hubungi saya</a>
+    </div>
+  </div>
+
+  <section id="tentang">
+    <div class="wrap">
+      <h2>Tentang saya</h2>
+      <p>Saya lahir di Pasuruan dan sekarang kuliah S1 Sistem Informasi di Universitas Kanjuruhan Malang. Saya senang membangun website yang dipakai orang sungguhan, seperti website sekolah yang saya kerjakan saat magang.</p>
+      <p>Di luar kuliah, saya aktif bernyanyi dan menjadi pembawa acara. Saya juga pernah meraih medali di olimpiade ekonomi tingkat provinsi dan nasional.</p>
+    </div>
+  </section>
+
+  <section id="proyek">
+    <div class="wrap">
+      <h2>Proyek</h2>
+      <article class="item">
+        <h3>Website SMP Kristen Baithani Tutur</h3>
+        <p>Website resmi sekolah yang saya buat selama magang. Pengunjung bisa membaca informasi sekolah langsung dari browser.</p>
+        <p class="links"><a href="https://smpkristenbaithanitutur.sch.id/" target="_blank" rel="noopener">Buka website</a></p>
+      </article>
+    </div>
+  </section>
+
+  <section id="pengalaman">
+    <div class="wrap">
+      <h2>Pengalaman</h2>
+      <article class="item">
+        <h3>Magang Pembuat Website</h3>
+        <p class="who">SMP Kristen Baithani Tutur</p>
+        <p>Merancang dan membuat website resmi sekolah.</p>
+      </article>
+      <article class="item">
+        <h3>Brand Ambassador</h3>
+        <p class="who">HSB Investasi</p>
+        <p>Memperkenalkan layanan investasi kepada calon nasabah.</p>
+      </article>
+      <article class="item">
+        <h3>Cafe Singer</h3>
+        <p class="who">Plataran Bromo</p>
+        <p>Tampil bernyanyi langsung untuk tamu kafe.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="prestasi">
+    <div class="wrap">
+      <h2>Prestasi</h2>
+      <article class="item">
+        <h3>Juara Favorite Vocal Solo</h3>
+        <p>Electrical Music, Februari 2023</p>
+      </article>
+      <article class="item">
+        <h3>Medali Emas Olimpiade Ekonomi Tingkat Provinsi</h3>
+        <p>Zeta Institute, Januari 2023</p>
+      </article>
+      <article class="item">
+        <h3>Medali Perak Olimpiade Ekonomi Tingkat Nasional</h3>
+        <p>Zeta Institute, Januari 2023</p>
+      </article>
+      <article class="item">
+        <h3>Master of Ceremony HUT Republik Indonesia Kecamatan Tutur</h3>
+        <p>Kecamatan Tutur, Agustus 2022</p>
+      </article>
+      <article class="item">
+        <h3>Juara 3 Olimpiade Matematika Tingkat Provinsi</h3>
+        <p>HMPS Matematika, September 2021</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="pendidikan">
+    <div class="wrap">
+      <h2>Pendidikan</h2>
+      <article class="item">
+        <h3>Universitas Kanjuruhan Malang</h3>
+        <p>Sarjana (S1), Sistem Informasi</p>
+      </article>
+      <article class="item">
+        <h3>SMA Kristen Baithani Tutur</h3>
+      </article>
+      <article class="item">
+        <h3>SMP Kristen Baithani Tutur</h3>
+      </article>
+      <article class="item">
+        <h3>SD Wonosari 1</h3>
+      </article>
+    </div>
+  </section>
+
+  <!-- EDIT: tambah atau hapus keahlian sesuai kemampuanmu -->
+  <section id="keahlian">
+    <div class="wrap">
+      <h2>Keahlian</h2>
+      <ul class="skills">
+        <li>Pembuatan website</li>
+        <li>Menyanyi</li>
+        <li>Pembawa acara</li>
+        <li>Ekonomi dan investasi</li>
+        <li>Matematika</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- EDIT: kalau sudah punya alamat profil LinkedIn lengkap, ganti href LinkedIn di bawah -->
+  <section id="kontak">
+    <div class="wrap">
+      <h2>Kontak</h2>
+      <p>Punya proyek, tawaran kerja, atau undangan acara? Kirim pesan ke <a href="mailto:jscjosephine@gmail.com">jscjosephine@gmail.com</a>.</p>
+      <p>
+        <a href="https://www.instagram.com/jessicacj__">Instagram</a> &nbsp;
+        <a href="https://www.linkedin.com/search/results/all/?keywords=jessica%20carellia%20josephine">LinkedIn</a>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Jessica Carellia Josephine</div>
+</footer>
+
+</body>
+</html>
